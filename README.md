@@ -26,4 +26,6 @@ These items will be included in future releases
 <li>Fix static log extension Shared.ZipFiles, should be dynamic</li>
 <li>Finish Email Manager and SMTP reports</li>
 <li>Multi-thread calls to Shared.ZipFiles to process multiple directories at the same time</li>
+<li>Set File.SetLastWriteTime of Zip archives to date of the files placed in it.</li>
+<li>Cleanup files older than archiveDays + deleteArchiveDays to prevent archiving items that will be deleted</li>
 </ul>
